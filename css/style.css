@@ -1,0 +1,123 @@
+#loading {
+  width: 150px;
+  height: 3px;
+  background-color: red;
+  animation: linear 10s myloading;
+}
+
+@keyframes myloading {
+  0% {
+    width: 150px;
+    height: 3px;
+    background-color: red;
+  }
+  25% {
+    width: 300px;
+    height: 3px;
+    background-color: yellow;
+  }
+  50% {
+    width: 550px;
+    height: 3px;
+    background-color: black;
+  }
+  75% {
+    width: 700px;
+    height: 3px;
+    background-color: green;
+  }
+  100% {
+    width: 1200px;
+    height: 3px;
+    background-color: red;
+  }
+
+  /* from {
+  width: 150px;
+  height: 3px;
+  background-color: red;
+
+}
+to{
+
+  width: 1200px;
+  height: 3px;
+  background-color: black;
+} */
+}
+
+#main {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+#box1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation: linear 5s myanimation;
+}
+
+#box2 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  animation: linear 5s myanimation;
+}
+#box3 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  animation: linear 5s myanimation;
+}
+
+@keyframes myanimation {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#container {
+  display: flex;
+  /* background-color: yellow; */
+  height: 3000px;
+}
+#bo1 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  margin: 10px;
+}
+#bo2 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  margin: 10px;
+}
+
+#bo3 {
+  width: 1200px;
+  height: 60px;
+  background-color: blueviolet;
+  /* border: 2px solid red; */
+  margin: 10px;
+  /* position: relative;  it always accourding to his current postion */
+  /* position: fixed;  */
+  /*  it work accourding to parante */
+  /* top: 100px;
+   left: 200px; */
+  /* right: -10px;
+    bottom: 3px; */
+  position: sticky;
+  top: 10px;
+}
+#bo4 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  margin: 10px;
+}

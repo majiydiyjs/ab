@@ -1,0 +1,21 @@
+#container-card{
+
+display: inline-flex;
+ gap: 20px;
+}
+#card1{
+ width: 400px;
+ height: 200px;
+
+}
+#card2{
+    width: 400px;
+    height: 200px;
+   
+   }
+   #card3{
+    width: 400px;
+    height: 200px;
+   
+   }
+      
